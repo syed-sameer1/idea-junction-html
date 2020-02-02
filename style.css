@@ -1,19 +1,23 @@
 /* width */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
+
 ::-webkit-scrollbar-track {
   background: #f1f1f100;
 }
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: #39a39094;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #62c5b2;
 }
@@ -111,7 +115,7 @@ header {
 }
 
 .diagonal .download_para {
-  margin: 20px 180px;
+  margin: 20px 120px;
 }
 
 .arrow {
@@ -260,6 +264,7 @@ nav {
   font-family: 17px;
   text-align: center;
 }
+
 .aboutCount {
   /* border: 1px solid black; */
   display: grid;
@@ -268,16 +273,19 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
+
 .countCard {
   /* border: 1px solid red; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
+
 .countCard img {
   margin-bottom: 5px;
   height: 55px;
 }
+
 .countNumber {
   display: flex;
   flex-direction: column;
@@ -285,6 +293,7 @@ nav {
   justify-content: center;
   margin-left: 15px;
 }
+
 .countNumber .number {
   font-size: 50px;
   font-weight: 900;
@@ -292,6 +301,7 @@ nav {
   margin: 0;
   font-family: "Open Sans";
 }
+
 .countNumber .numberTitle {
   margin: -10px 0 0 5px;
   font-size: 16px;
@@ -312,12 +322,14 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .ourServices h2 {
   margin: 0;
   font-weight: 900;
   font-family: "Open Sans";
   font-size: 30px;
 }
+
 .ourServices h3 {
   margin: 0;
   font-size: 22px;
@@ -325,9 +337,11 @@ nav {
   font-family: "Open Sans";
   color: gray;
 }
+
 .ourServices img {
   margin: 20px 0;
 }
+
 .servicesCards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -335,25 +349,31 @@ nav {
   grid-gap: 60px 20px;
   margin-top: 30px;
 }
+
 .servicesCard {
   display: flex;
   align-items: flex-start;
 }
+
 .servicesCard img {
   margin: 0 25px;
 }
+
 .servicesDetails h3 {
   margin: 0;
   font-family: "Open Sans";
   font-weight: 400;
 }
+
 .servicesDetails img {
   margin: 0;
 }
+
 .servicesDetails p {
   font-family: "Open Sans";
   color: gray;
 }
+
 .serviceQuotes {
   display: flex;
   justify-content: center;
@@ -362,50 +382,59 @@ nav {
   background-color: #39a38f;
   padding: 50px 300px;
 }
+
 .doeQuotes {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .doeQuotes h2 {
   font-family: "Open Sans";
   text-align: center;
   font-weight: 300;
 }
+
 .doeQuotes h3 {
   font-family: "Open Sans";
   font-weight: 300;
 }
+
 .serviceQuotes .img_1 {
   position: absolute;
   margin-top: -86px;
   left: 237px;
 }
+
 .serviceQuotes .img_2 {
   position: absolute;
   right: 250px;
   z-index: 3;
   margin-top: 19px;
 }
+
 #portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px 90px;
 }
+
 .ourPortfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .ourPortfolio h2 {
   margin: 0;
   font-weight: 900;
   font-family: "Open Sans";
   font-size: 30px;
 }
+
 .ourPortfolio h3 {
   margin: 0;
   font-size: 22px;
@@ -413,9 +442,11 @@ nav {
   font-family: "Open Sans";
   color: gray;
 }
+
 .ourPortfolio img {
   margin: 20px 0;
 }
+
 .portfolioNav ul {
   display: flex;
   list-style-type: none;
@@ -435,26 +466,24 @@ nav {
 .portfolioNav ul li a:hover {
   color: black;
 }
+
 .portfolioCards {
   display: flex;
   flex-direction: column;
 }
-.upperCards,
-.lowerCards {
+
+.upperCards, .lowerCards {
   display: flex;
 }
-.card_1,
-.card_3,
-.card_6,
-.card_8 {
+
+.card_1, .card_3, .card_6, .card_8 {
   background-color: #39a38f;
 }
-.card_2,
-.card_4,
-.card_5,
-.card_7 {
+
+.card_2, .card_4, .card_5, .card_7 {
   background-color: #62c5b2;
 }
+
 .card {
   display: flex;
   align-items: center;
@@ -462,6 +491,7 @@ nav {
   height: 250px;
   width: 338px;
 }
+
 .innerCard {
   height: 100%;
   width: 100%;
@@ -471,17 +501,20 @@ nav {
   justify-content: center;
   color: white;
 }
+
 .innerCard h3 {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 0;
 }
+
 .innerCard p {
   margin: 0;
   font-family: "Open Sans";
   font-weight: 300;
 }
+
 .card:hover .innerCard {
   display: flex;
 }
@@ -492,18 +525,21 @@ nav {
   align-items: center;
   padding: 60px 90px;
 }
+
 .contactUs {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .contactUs h2 {
   margin: 0;
   font-weight: 900;
   font-family: "Open Sans";
   font-size: 30px;
 }
+
 .contactUs h3 {
   margin: 0;
   font-size: 22px;
@@ -511,9 +547,11 @@ nav {
   font-family: "Open Sans";
   color: gray;
 }
+
 .contactUs img {
   margin: 20px 0;
 }
+
 .contactRoran {
   display: flex;
   background-color: #39a38f;
@@ -522,16 +560,18 @@ nav {
   justify-content: center;
   height: 425px;
 }
-.roran h2 {
-  font-family: "Open Sans";
-  font-size: 26px;
+
+.roran img {
   position: absolute;
-  margin: -99px 0px 0px -40px;
+  margin: -122px 0px 0px -45px;
+  height: 80px;
 }
-.contactRoran img {
+
+.contactRoran .pop {
   position: absolute;
   margin-top: -75px;
 }
+
 .formDiv {
   background-color: rgb(240, 239, 239);
   padding: 0 90px;
@@ -541,6 +581,7 @@ nav {
   height: 600px;
   padding-bottom: 20px;
 }
+
 .form {
   display: flex;
   /* align-items: center; */
@@ -551,6 +592,7 @@ nav {
   position: absolute;
   margin-top: -125px;
 }
+
 .form .inputs {
   display: flex;
   flex-direction: column;
@@ -558,14 +600,15 @@ nav {
   align-items: flex-start;
   width: 60%;
 }
+
 .inputs .inputsLabel {
   font-family: "Open Sans";
   font-size: 14px;
   color: #555;
   margin: 5px;
 }
-.inputs .input,
-textarea {
+
+.inputs .input, textarea {
   background-color: white;
   padding: 8px;
   font-family: "Open Sans";
@@ -586,36 +629,44 @@ textarea {
   padding: 15px 30px;
   margin-top: 20px;
 }
+
 .contactInfo {
   width: 40%;
   display: flex;
   flex-direction: column;
 }
+
 .contactInfo h2 {
   font-family: "Open Sans";
   margin-top: 0;
 }
+
 .contactInfo p {
   font-family: "Open Sans";
   color: gray;
   font-size: 14px;
 }
+
 .address {
   display: flex;
   align-items: center;
   margin: 5px;
   /* justify-content: center; */
 }
+
 .address img {
   margin: 10px;
 }
+
 .addressSpan {
   display: flex;
   flex-direction: column;
 }
+
 .addressSpan span {
   font-family: "Open Sans";
 }
+
 footer {
   display: flex;
   padding: 0 90px;
@@ -624,7 +675,13 @@ footer {
   background-color: rgb(228, 228, 228);
   height: 60px;
 }
+
 .footerArrow img {
   margin-right: 140px;
   cursor: pointer;
+}
+
+.copyRight p {
+  color: gray;
+  font-family: 'open Sans';
 }
